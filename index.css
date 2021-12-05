@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.DaftarBeritaTitle{
+    justify-content: start;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: Left;
+    letter-spacing: 0.05em;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.d-flex{
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ButtonSearch{
+    width: 45.08px;
+    height: 39.82px;
+}
+
+.card-group{
+    margin-top: 100px;
+}
+
+.ButtonNext{
+    margin-top: 75px;
+}
+
+.card1{
+    margin-top: 100px !important;
+    padding: 8px;
+    border-radius: 10px 50px 50px 10px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    background-color: #F8F5F1;
+}
+
+.card2{
+    padding: 8px;
+    border-radius: 10px 50px 50px 10px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    background-color: #F8F5F1;
+}
+
+.card3{
+    padding: 8px;
+    border-radius: 10px 50px 50px 10px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    background-color: #F8F5F1;
+}
+
+.card-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+}
+
+
+.gambar{
+    width: 312px;
+    height: 188px;
+    border-radius: 50px;
+}
+
+.nomorNext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.pagination ul{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.pagination ul li{
+    color: #FF0000;
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+.pagination ul li.numb{
+    list-style: none;
+    height: 45px;
+    width: 45px;
+    margin: 0 3px;
+    line-height: 45px;
+    border-radius: 50%;
+}
+.pagination ul li.numb.first{
+    margin: 0px 3px 0 -5px;
+}
+.pagination ul li.numb.last{
+    margin: 0px -5px 0 3px;
+}
+.pagination ul li.dots{
+    font-size: 22px;
+    cursor: default;
+}
+.pagination ul li.btn{
+    padding: 0 20px;
+    border-radius: 50px;
+}
+.pagination li.active,
+.pagination ul li.numb:hover,
+.pagination ul li:first-child:hover,
+.pagination ul li:last-child:hover{
+    color: #fff;
+    background: #FF0000;
+}
